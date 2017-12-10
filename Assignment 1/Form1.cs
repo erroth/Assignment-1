@@ -12,7 +12,7 @@ namespace Assignment_1
 {
     public partial class Form1 : Form
     {
-        public int totalvalue { get; private set; }
+        public double totalvalue { get; private set; }
 
         public Form1()
         {
@@ -57,6 +57,13 @@ namespace Assignment_1
 
                     textBox1.Text = totalvalue.ToString();
                 }
+                double totalvalue2;
+                if (double.TryParse(textBox2.Text, out totalvalue2))
+                {
+                    totalvalue2 = (totalvalue) / 100;
+
+                    textBox2.Text = totalvalue2.ToString();
+                }
             }
         }
 
@@ -86,6 +93,13 @@ namespace Assignment_1
                     totalvalue = (totalvalue) + 1;
 
                     textBox1.Text = totalvalue.ToString();
+                }
+                double totalvalue2;
+                if (double.TryParse(textBox1.Text, out totalvalue2))
+                {
+                    totalvalue2 = (totalvalue) / 100;
+
+                    textBox2.Text = totalvalue2.ToString();
                 }
             }
         }
@@ -122,6 +136,13 @@ namespace Assignment_1
 
                     textBox1.Text = totalvalue.ToString();
                 }
+                double totalvalue2;
+                if (double.TryParse(textBox2.Text, out totalvalue2))
+                {
+                    totalvalue2 = (totalvalue) / 100;
+
+                    textBox2.Text = totalvalue2.ToString();
+                }
             }
         }
 
@@ -151,6 +172,13 @@ namespace Assignment_1
                     totalvalue = (totalvalue) + 50;
 
                     textBox1.Text = totalvalue.ToString();
+                }
+                double totalvalue2;
+                if (double.TryParse(textBox2.Text, out totalvalue2))
+                {
+                    totalvalue2 = (totalvalue) / 100;
+
+                    textBox2.Text = totalvalue2.ToString();
                 }
             }
         }
@@ -182,6 +210,13 @@ namespace Assignment_1
 
                     textBox1.Text = totalvalue.ToString();
                 }
+                double totalvalue2;
+                if (double.TryParse(textBox2.Text, out totalvalue2))
+                {
+                    totalvalue2 = (totalvalue) / 100;
+
+                    textBox2.Text = totalvalue2.ToString();
+                }
             }
         }
 
@@ -211,6 +246,13 @@ namespace Assignment_1
                     totalvalue = (totalvalue) + 10;
 
                     textBox1.Text = totalvalue.ToString();
+                }
+                double totalvalue2;
+                if (double.TryParse(textBox2.Text, out totalvalue2))
+                {
+                    totalvalue2 = (totalvalue) / 100;
+
+                    textBox2.Text = totalvalue2.ToString();
                 }
             }
         }
@@ -242,6 +284,13 @@ namespace Assignment_1
 
                     textBox1.Text = totalvalue.ToString();
                 }
+                double totalvalue2;
+                if (double.TryParse(textBox2.Text, out totalvalue2))
+                {
+                    totalvalue2 = (totalvalue) / 100;
+
+                    textBox2.Text = totalvalue2.ToString();
+                }
             }
         }
 
@@ -272,6 +321,13 @@ namespace Assignment_1
 
                     textBox1.Text = totalvalue.ToString();
                 }
+                double totalvalue2;
+                if (double.TryParse(textBox2.Text, out totalvalue2))
+                {
+                    totalvalue2 = (totalvalue) / 100;
+
+                    textBox2.Text = totalvalue2.ToString();
+                }
             }
         }
 
@@ -289,13 +345,8 @@ namespace Assignment_1
         {
 
         }
-
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            if (totalvalue != 0) ;
-            {
-                double totalvalue = Convert.ToDouble(textBox1);
-            }
         }
     }
 }
