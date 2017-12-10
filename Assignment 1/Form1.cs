@@ -31,7 +31,7 @@ namespace Assignment_1
 
         private void pb2pnd_Click(object sender, EventArgs e)
         {
-            if (textBox3.Text == "0")
+            if (textBox3.Text == "0") // This section of code states that if textbox3 (cost of credits) has the value of "0" then it should display an error message.
             {
                 MessageBox.Show("You have not set the cost of a credit");
 
@@ -39,11 +39,11 @@ namespace Assignment_1
             else
             {
 
-                int currentvalue;
+                int currentvalue; //Here creates the int current value
 
-                if (int.TryParse(lbl2pnd.Text, out currentvalue))
+                if (int.TryParse(lbl2pnd.Text, out currentvalue)) //Here we have the code see if the user input can be a boolean value
                 {
-                    currentvalue = (currentvalue) + 1;
+                    currentvalue = (currentvalue) + 1; //With every button click we add the corrosponding amount to the variable
 
                     lbl2pnd.Text = currentvalue.ToString();
                 }
