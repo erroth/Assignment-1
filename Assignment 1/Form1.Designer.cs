@@ -122,6 +122,7 @@
             this.textBox3.Size = new System.Drawing.Size(63, 20);
             this.textBox3.TabIndex = 10;
             this.textBox3.Text = "0";
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -130,6 +131,7 @@
             this.textBox4.Size = new System.Drawing.Size(71, 20);
             this.textBox4.TabIndex = 11;
             this.textBox4.Text = "0";
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // pb2pnd
             // 

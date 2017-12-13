@@ -348,5 +348,26 @@ namespace Assignment_1
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            double creditsprice = Convert.ToDouble(textBox3.Text);
+
+            double totalcredits = (totalvalue) / (creditsprice);
+
+            if (double.TryParse(textBox3.Text, out totalcredits))
+            {
+                totalcredits = (totalvalue) / creditsprice;
+
+                textBox4.Text = Math.Round.totalvalue.ToString();
+
+            }
+        }
+        public void textBox3_TextChanged(object sender, EventArgs e)
+        {
+           
+
+            
+        }
     }
 }
