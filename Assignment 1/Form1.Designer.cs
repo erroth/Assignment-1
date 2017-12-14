@@ -608,6 +608,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Tag = "Form1";
             this.Text = "Money Credit Counter v2.0";
             this.Load += new System.EventHandler(this.Form1_Load);
