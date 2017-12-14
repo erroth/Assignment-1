@@ -104,6 +104,7 @@
             this.textBox1.Size = new System.Drawing.Size(51, 20);
             this.textBox1.TabIndex = 8;
             this.textBox1.Text = "0";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
@@ -113,6 +114,7 @@
             this.textBox2.Size = new System.Drawing.Size(71, 20);
             this.textBox2.TabIndex = 9;
             this.textBox2.Text = "0.00";
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
@@ -122,6 +124,7 @@
             this.textBox3.Size = new System.Drawing.Size(63, 20);
             this.textBox3.TabIndex = 10;
             this.textBox3.Text = "0";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
@@ -131,6 +134,7 @@
             this.textBox4.Size = new System.Drawing.Size(71, 20);
             this.textBox4.TabIndex = 11;
             this.textBox4.Text = "0";
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // pb2pnd

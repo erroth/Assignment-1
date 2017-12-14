@@ -73,7 +73,10 @@ namespace Assignment_1
                     {
                         totalcredits = (totalvalue) / creditsprice;
 
-                        textBox4.Text = totalcredits.ToString();
+                        int totalcredits2 = Convert.ToInt16(Math.Floor(totalcredits));
+
+
+                        textBox4.Text = totalcredits2.ToString();
 
                     }
                 }
@@ -123,7 +126,10 @@ namespace Assignment_1
                     {
                         totalcredits = (totalvalue) / creditsprice;
 
-                        textBox4.Text = totalcredits.ToString();
+                        int totalcredits2 = Convert.ToInt16(Math.Floor(totalcredits));
+
+
+                        textBox4.Text = totalcredits2.ToString();
 
                     }
                 }
@@ -178,7 +184,10 @@ namespace Assignment_1
                     {
                         totalcredits = (totalvalue) / creditsprice;
 
-                        textBox4.Text = totalcredits.ToString();
+                        int totalcredits2 = Convert.ToInt16(Math.Floor(totalcredits));
+
+
+                        textBox4.Text = totalcredits2.ToString(); textBox4.Text = totalcredits.ToString();
 
                     }
                 }
@@ -228,7 +237,10 @@ namespace Assignment_1
                     {
                         totalcredits = (totalvalue) / creditsprice;
 
-                        textBox4.Text = totalcredits.ToString();
+                        int totalcredits2 = Convert.ToInt16(Math.Floor(totalcredits));
+
+
+                        textBox4.Text = totalcredits2.ToString();
 
                     }
                 }
@@ -278,7 +290,10 @@ namespace Assignment_1
                     {
                         totalcredits = (totalvalue) / creditsprice;
 
-                        textBox4.Text = totalcredits.ToString();
+                        int totalcredits2 = Convert.ToInt16(Math.Floor(totalcredits));
+
+
+                        textBox4.Text = totalcredits2.ToString();
 
                     }
                 }
@@ -328,7 +343,10 @@ namespace Assignment_1
                     {
                         totalcredits = (totalvalue) / creditsprice;
 
-                        textBox4.Text = totalcredits.ToString();
+                        int totalcredits2 = Convert.ToInt16(Math.Floor(totalcredits));
+
+
+                        textBox4.Text = totalcredits2.ToString();
 
                     }
                 }
@@ -378,7 +396,10 @@ namespace Assignment_1
                     {
                         totalcredits = (totalvalue) / creditsprice;
 
-                        textBox4.Text = totalcredits.ToString();
+                        int totalcredits2 = Convert.ToInt16(Math.Floor(totalcredits));
+
+
+                        textBox4.Text = totalcredits2.ToString();
 
                     }
                 }
@@ -428,7 +449,10 @@ namespace Assignment_1
                     {
                         totalcredits = (totalvalue) / creditsprice;
 
-                        textBox4.Text = totalcredits.ToString();
+                        int totalcredits2 = Convert.ToInt16(Math.Floor(totalcredits));
+
+
+                        textBox4.Text = totalcredits2.ToString();
 
                     }
                 }
