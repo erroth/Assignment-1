@@ -609,7 +609,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Tag = "Form1";
-            this.Text = "Form1";
+            this.Text = "Money Credit Counter v2.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb2pnd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb1p)).EndInit();
