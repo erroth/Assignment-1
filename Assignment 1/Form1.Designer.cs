@@ -605,7 +605,10 @@
             this.Controls.Add(this.GBCredits);
             this.Controls.Add(this.GBCE);
             this.Controls.Add(this.GBCoins);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
+            this.Tag = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb2pnd)).EndInit();
