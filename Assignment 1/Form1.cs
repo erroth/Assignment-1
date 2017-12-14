@@ -64,6 +64,19 @@ namespace Assignment_1
 
                     textBox2.Text = totalvalue2.ToString();
                 }
+                {
+                    double creditsprice = Convert.ToDouble(textBox3.Text);
+
+                    double totalcredits = (totalvalue) / (creditsprice);
+
+                    if (double.TryParse(textBox3.Text, out totalcredits))
+                    {
+                        totalcredits = (totalvalue) / creditsprice;
+
+                        textBox4.Text = totalcredits.ToString();
+
+                    }
+                }
             }
         }
 
@@ -100,6 +113,19 @@ namespace Assignment_1
                     totalvalue2 = (totalvalue) / 100;
 
                     textBox2.Text = totalvalue2.ToString();
+                }
+                {
+                    double creditsprice = Convert.ToDouble(textBox3.Text);
+
+                    double totalcredits = (totalvalue) / (creditsprice);
+
+                    if (double.TryParse(textBox3.Text, out totalcredits))
+                    {
+                        totalcredits = (totalvalue) / creditsprice;
+
+                        textBox4.Text = totalcredits.ToString();
+
+                    }
                 }
             }
         }
@@ -143,6 +169,19 @@ namespace Assignment_1
 
                     textBox2.Text = totalvalue2.ToString();
                 }
+                {
+                    double creditsprice = Convert.ToDouble(textBox3.Text);
+
+                    double totalcredits = (totalvalue) / (creditsprice);
+
+                    if (double.TryParse(textBox3.Text, out totalcredits))
+                    {
+                        totalcredits = (totalvalue) / creditsprice;
+
+                        textBox4.Text = totalcredits.ToString();
+
+                    }
+                }
             }
         }
 
@@ -179,6 +218,19 @@ namespace Assignment_1
                     totalvalue2 = (totalvalue) / 100;
 
                     textBox2.Text = totalvalue2.ToString();
+                }
+                {
+                    double creditsprice = Convert.ToDouble(textBox3.Text);
+
+                    double totalcredits = (totalvalue) / (creditsprice);
+
+                    if (double.TryParse(textBox3.Text, out totalcredits))
+                    {
+                        totalcredits = (totalvalue) / creditsprice;
+
+                        textBox4.Text = totalcredits.ToString();
+
+                    }
                 }
             }
         }
@@ -217,6 +269,19 @@ namespace Assignment_1
 
                     textBox2.Text = totalvalue2.ToString();
                 }
+                {
+                    double creditsprice = Convert.ToDouble(textBox3.Text);
+
+                    double totalcredits = (totalvalue) / (creditsprice);
+
+                    if (double.TryParse(textBox3.Text, out totalcredits))
+                    {
+                        totalcredits = (totalvalue) / creditsprice;
+
+                        textBox4.Text = totalcredits.ToString();
+
+                    }
+                }
             }
         }
 
@@ -253,6 +318,19 @@ namespace Assignment_1
                     totalvalue2 = (totalvalue) / 100;
 
                     textBox2.Text = totalvalue2.ToString();
+                }
+                {
+                    double creditsprice = Convert.ToDouble(textBox3.Text);
+
+                    double totalcredits = (totalvalue) / (creditsprice);
+
+                    if (double.TryParse(textBox3.Text, out totalcredits))
+                    {
+                        totalcredits = (totalvalue) / creditsprice;
+
+                        textBox4.Text = totalcredits.ToString();
+
+                    }
                 }
             }
         }
@@ -291,6 +369,19 @@ namespace Assignment_1
 
                     textBox2.Text = totalvalue2.ToString();
                 }
+                {
+                    double creditsprice = Convert.ToDouble(textBox3.Text);
+
+                    double totalcredits = (totalvalue) / (creditsprice);
+
+                    if (double.TryParse(textBox3.Text, out totalcredits))
+                    {
+                        totalcredits = (totalvalue) / creditsprice;
+
+                        textBox4.Text = totalcredits.ToString();
+
+                    }
+                }
             }
         }
 
@@ -328,6 +419,19 @@ namespace Assignment_1
 
                     textBox2.Text = totalvalue2.ToString();
                 }
+                {
+                    double creditsprice = Convert.ToDouble(textBox3.Text);
+
+                    double totalcredits = (totalvalue) / (creditsprice);
+
+                    if (double.TryParse(textBox3.Text, out totalcredits))
+                    {
+                        totalcredits = (totalvalue) / creditsprice;
+
+                        textBox4.Text = totalcredits.ToString();
+
+                    }
+                }
             }
         }
 
@@ -351,23 +455,13 @@ namespace Assignment_1
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            double creditsprice = Convert.ToDouble(textBox3.Text);
-
-            double totalcredits = (totalvalue) / (creditsprice);
-
-            if (double.TryParse(textBox3.Text, out totalcredits))
-            {
-                totalcredits = (totalvalue) / creditsprice;
-
-                textBox4.Text = Math.Round.totalvalue.ToString();
-
-            }
+            
         }
         public void textBox3_TextChanged(object sender, EventArgs e)
         {
-           
 
-            
+
+
         }
     }
 }
