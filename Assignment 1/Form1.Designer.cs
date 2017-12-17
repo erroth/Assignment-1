@@ -601,7 +601,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(649, 847);
+            this.ClientSize = new System.Drawing.Size(649, 900);
             this.Controls.Add(this.GBCredits);
             this.Controls.Add(this.GBCE);
             this.Controls.Add(this.GBCoins);

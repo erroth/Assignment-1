@@ -45,38 +45,39 @@ namespace Assignment_1
                 {
                     currentvalue = (currentvalue) + 1; //With every button click we add the corrosponding amount to the variable
 
-                    lbl2pnd.Text = currentvalue.ToString();
+                    lbl2pnd.Text = currentvalue.ToString(); //This inputs a text version of the calculation output into the corresponding text box
                 }
 
 
-                double totalvalue;
+                double totalvalue; //Here creates the totalvalue double
 
-                if (double.TryParse(textBox1.Text, out totalvalue))
+                if (double.TryParse(textBox1.Text, out totalvalue)) //Here we have the code see if the user input can be a boolean value
                 {
-                    totalvalue = (totalvalue) + 200;
+                    totalvalue = (totalvalue) + 200; //With every button click we add the corrosponding amount to the variable
 
-                    textBox1.Text = totalvalue.ToString();
+                    textBox1.Text = totalvalue.ToString();  //This inputs a text version of the calculation output into the corresponding text box
                 }
-                double totalvalue2;
-                if (double.TryParse(textBox2.Text, out totalvalue2))
-                {
-                    totalvalue2 = (totalvalue) / 100;
+                double totalvalue2; //Here creates the totalvalue2 double
 
-                    textBox2.Text = totalvalue2.ToString();
+                if (double.TryParse(textBox2.Text, out totalvalue2)) //Here we have the code see if the user input can be a boolean value
+                {
+                    totalvalue2 = (totalvalue) / 100; //With every button click we divide the curent totalvalue variable by 100
+
+                    textBox2.Text = totalvalue2.ToString();  //This inputs a text version of the calculation output into the corresponding text box
                 }
                 {
-                    double creditsprice = Convert.ToDouble(textBox3.Text);
+                    double creditsprice = Convert.ToDouble(textBox3.Text); //Here creates the creditsprice double by converting the user input into a double int
 
-                    double totalcredits = (totalvalue) / (creditsprice);
+                    double totalcredits = (totalvalue) / (creditsprice); //Here creates the totalcredits double by dividing totalvalue by creditsprice
 
-                    if (double.TryParse(textBox3.Text, out totalcredits))
+                    if (double.TryParse(textBox3.Text, out totalcredits)) //Here we have the code see if the user input can be a boolean value
                     {
-                        totalcredits = (totalvalue) / creditsprice;
+                        totalcredits = (totalvalue) / creditsprice; //With every button click we divide totalvalue by creditsprice to get totalcredits
 
-                        int totalcredits2 = Convert.ToInt16(Math.Floor(totalcredits));
+                        int totalcredits2 = Convert.ToInt16(Math.Floor(totalcredits)); //This sets the int totalcredits2 as totalcredits (which has been converted to int). It has also been rounded to the floor so we dont give extra credits away by rounding up.
 
 
-                        textBox4.Text = totalcredits2.ToString();
+                        textBox4.Text = totalcredits2.ToString();  //This inputs a text version of the calculation output into the corresponding text box
 
                     }
                 }
